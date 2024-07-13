@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>BIRDLIME</title>
+</head>
+<style>
+body {background-color: black;}
+
+pre {color: white;font-family: "Courier New", monospace; text-align: center}
+pre.italic {font-style: italic;}
+pre.bold {font-style: bold;font-size: 18px}
+
+a {display: block; text-decoration: none; text-align: center;font-family: "Courier New", monospace;font-size: 28px;}
+a:link {text-align: center; color:gray;}
+a:visited {text-align: center; color:gray;}
+a:hover {text-align: center; color:white;}
+a:active {text-align: center; color:white;}
+
+</style>
+
+<body>
+<pre>
+
+
+
+This page is under construction.</pre>
+<a href="https://www.birdlime.net/">RETURN</a>
+
+</body>
+</html>
