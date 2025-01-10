@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>M. R. JAMES</title>
+</head>
+
+<style>
+body {background-color: black;}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+p {
+	color: white; 
+	font-family: "Courier New", monospace; 
+}
+p.header {
+	font-size: 24px;
+	font-style: bold;
+	margin-top: 60px;
+	text-align: center;
+}
+p.body {
+	font-size: 16px;
+	width: 50%;
+	margin-top: 200px;	
+	margin-right: 480px;
+	margin-left: 480px;}
+
+
+pre {
+	color: white;
+	font-family: "Courier New", monospace;
+}
+pre.body {
+	font-size: 16px;
+	text-wrap: wrap
+}
+pre.art {
+	font-size: 14px;
+	margin: 0em;
+}
+pre.italic {
+	font-style: italic;
+}
+pre.bold {
+	font-style: bold;
+}
+
+div {
+	margin: 10px auto;
+	width: 65%;
+
+a {display: block; text-decoration: none; text-align: center;font-family: "Courier New", monospace;}
+a:link {color:gray;}
+a:visited {color:gray;}
+a:hover {color:white;}
+a:active {color:white;}
+
+</style>
+
+<body>
+
+<img src="https://birdlime.s3.us-east-1.amazonaws.com/250110goyaghost1.jpg" alt="goya" style="width:350px">
+
+<pre style="
+	font-size: 24px;
+	text-align: center;
+	margin-top: 30px;">M. R. JAMES</pre>
+
+<div>
+<pre style="font-size: 16px;text-wrap: wrap">Montague Rhodes James was an English medievalist scholar but is best known today for his four collections of ghost stories published in the early decades of the 20th century. These ghost stories reflected the antiquarian interests of James and were influential in the genre. Included on this page are examinations of his stories as well as writing nonspecific to any one story.</div>
+<div><p style="font-size: 24px">
+<a href="https://birdlime.net/research/mr_james/1904">GHOST STORIES OF AN ANTIQUARY (1904)</a>
+<a href="https://birdlime.net/research/mr_james/1911">MORE GHOST STORIES (1911)</a>
+<a href="https://birdlime.net/research/mr_james/1919">A THIN GHOST AND OTHERS (1919)</a>
+<a href="https://birdlime.net/research/mr_james/1925">A WARNING TO THE CURIOUS AND OTHER GHOST STORIES (1925)</a>
+<a href="https://birdlime.net/research/mr_james/misc">MISCELLANEOUS TALES</a>
+<a href="https://birdlime.net/research/mr_james/erosion">AND DID THOSE FEET IN ANCIENT TIME...</a>
+<a href="https://birdlime.net/research/mr_james/angels">NEUTRAL ANGELS</a>
+</p></div>
+
+<div><a href="https://birdlime.net">RETURN HOME</a></div>
+
+</body>
+</html>
