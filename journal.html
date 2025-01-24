@@ -6,64 +6,75 @@
 </head>
 
 <style>
-body {background-color: black;}
 
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-family: "Courier New", monospace;
+	font-size: 24px;
+	font-style: bold;
+	margin-top: 60px;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	font-family: "Courier New", monospace;
+	font-style: regular;
+	font-size: 24px;
+	text-align: center;
+}
 
 p {
 	color: white; 
 	font-family: "Courier New", monospace; 
 }
-p.header {
-	font-size: 24px;
-	font-style: bold;
-	margin-top: 200px;
-	text-align: center;
-}
-p.body {
-	font-size: 16px;
-	width: 50%;
-	margin-top: 200px;	
-	margin-right: 480px;
-	margin-left: 480px;}
 
-
-pre {
-	color: white;
+a {
+	text-decoration: none;
 	font-family: "Courier New", monospace;
-}
-pre.body {
-	font-size: 16px;
-	width: 50%;
-	margin-right: 480px;
-	margin-left: 480px;
-	text-wrap: wrap
-}
-pre.art {
-	font-size: 14px;
 	margin: 0em;
 }
-pre.italic {
-	font-style: italic;
-}
-pre.bold {
-	font-style: bold;
-}
 
-a {display: block; text-decoration: none; text-align: center;font-family: "Courier New", monospace;margin: 0em;}
 a:link {color:gray;}
 a:visited {color:gray;}
 a:hover {color:white;}
 a:active {color:white;}
 
+.text {
+	display: inline-block;
+	text-decoration: none;
+	"Courier New", monospace;
+	margin: 0em;
+}
+
+.button {
+	text-align: center;
+	display: inline-block;
+}
+
+div {
+	margin: 10px auto;
+	width: 65%;
+}
+
+.center {
+	text-align: center;
+}
+
 </style>
 
 <body>
-<div><pre style="font-size: 24px; text-align: center;margin-top: 200px;">JOURNAL</pre></div>
-<pre style="font-size: 16px;width: 50%;margin-right: 480px;margin-left: 480px;text-wrap: wrap">01/07/2025 - Added some new pages, basic outline of information page on THE WITNESS. Fixing and playing with page display.</pre>
-<pre style="font-size: 16px;width: 50%;margin-right: 480px;margin-left: 480px;text-wrap: wrap">08/16/2024 - Fixed linking issue and successfully added first image to site.</pre>
-<pre style="font-size: 16px;width: 50%;margin-right: 480px;margin-left: 480px;text-wrap: wrap">07/13/2024 - Created the ASCII tree and redesigned website from its original test setup. Added an ABOUT page, JOURNAL page, and a 404 default page. Considering best practice to add new entries to journal as I plan to move to longer entries.</pre>
+<div><h1>JOURNAL</h1>
+<p>01/23/2025 - Finally getting around to cleaning up HTML and setting basic standards. Adding more to THE WITNESS under RESEARCH PROJECTS and added page for M. R. JAMES under same section.</p>
+<p>01/07/2025 - Added some new pages, basic outline of information page on THE WITNESS. Fixing and playing with page display.</p>
+<p>08/16/2024 - Fixed linking issue and successfully added first image to site.</p>
+<p>07/13/2024 - Created the ASCII tree and redesigned website from its original test setup. Added an ABOUT page, JOURNAL page, and a 404 default page. Considering best practice to add new entries to journal as I plan to move to longer entries.</p></div>
 
-<div><a href="https://birdlime.net">RETURN HOME</a></div>
+<p class="center"><a href="https://birdlime.net" class="button">RETURN HOME</a></p>
 
 </body>
 </html>
