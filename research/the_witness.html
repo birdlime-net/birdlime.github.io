@@ -3,7 +3,10 @@
 <body>
 <head>
 <title>THE WITNESS</title>
-</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -13,16 +16,16 @@ body {
 
 h1 {
 	color: white;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	font-size: 24px;
 	font-style: bold;
-	margin-top: 60px;
+	margin-top: 80px;
 	text-align: center;
 }
 
 h2 {
 	color: white;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	font-style: regular;
 	font-size: 24px;
 	text-align: center;
@@ -30,12 +33,17 @@ h2 {
 
 p {
 	color: white; 
-	font-family: "Courier New", monospace; 
+	font-family: "Courier Prime", serif; 
+}
+
+pre {
+	color: white;
+	font-family: "Courier Prime", serif;
 }
 
 a {
 	text-decoration: none;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	margin: 0em;
 }
 
@@ -44,32 +52,46 @@ a:visited {color:gray;}
 a:hover {color:white;}
 a:active {color:white;}
 
-.text {
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #000000;
+	border-bottom-style: solid;
+	border-color: white;
 	display: inline-block;
-	text-decoration: none;
-	"Courier New", monospace;
-	margin: 0em;
 }
 
-.button {
-	text-align: center;
-	display: inline-block;
-}
-
-div {
+.main {
+	width: 85%;
 	margin: 10px auto;
-	width: 65%;
 }
 
 .center {
 	text-align: center;
 }
 
-</style>
+:target::before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin: -75px 0 0;
+}
 
+</style>
+</head>
+	
 <body>
+<div class="header">
+	<div class="main">
+		<pre><a href="https://www.birdlime.net">BIRDLIME</a> > <a href="https://www.birdlime.net/research">RESEARCH PROJECTS</a> > <a href="https://www.birdlime.net/research/the_witness">THE WITNESS</a></pre>
+	</div>
+</div>
+
+
 <h1>THE WITNESS</h1>
-<div><p>The Witness is a 2016 video game developed and published by Thekla Inc. Please visit the FAQ page first before exploring the rest of the page.
+<div class="main"><p>The Witness is a 2016 video game developed and published by Thekla Inc. Please visit the FAQ page first before exploring the rest of the page.
 <p style="font-size: 24px; margin:0em" class="center"><a href="https://birdlime.net/research/the_witness/faq">FAQ - START HERE!</a></p>
 <!--
 <p style="font-size: 24px; margin:0em" class="center"><a href="https://birdlime.net/research/the_witness/island">EXPLORING THE ISLAND</a></p>
@@ -80,8 +102,6 @@ div {
 <p style="font-size: 24px; margin:0em" class="center"><a href="https://birdlime.net/research/the_witness/development">DEVELOPMENT HISTORY</a></p>
 <p style="font-size: 24px; margin:0em" class="center"><a href="https://birdlime.net/research/the_witness/resources">FURTHER RESOURCES</a></p></div>
 -->
-
-<p class="center"><a href="https://birdlime.net">RETURN HOME</a></p>
 
 </body>
 </html>
