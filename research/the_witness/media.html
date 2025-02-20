@@ -75,37 +75,15 @@ a:active {color:white;}
 	margin: 10px auto;
 }
 
-.pathway {
-	width: 85%;
-	margin: 10px auto;
-
-}
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content {
-	visibility: hidden;
-	position: absolute;
-	background: black;
-	min-width: 160px;
-	padding-left: 16px;
-	padding-right: 16px;
-	z-index: 1;
-	transition: 0.0s;
-	border-style: solid;
-	border-color: white;
-}
-
 .center {
 	text-align: center;
 }
 
-.dropdown:hover .dropdown-content {
-	visibility: visible;
-	transition-delay: 0s;
+:target::before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin: -75px 0 0;
 }
 
 </style>
@@ -114,8 +92,8 @@ a:active {color:white;}
 <body>
 
 <div class="header">
-	<div class="pathway">
-		<pre><a href="https://www.birdlime.net">BIRDLIME</a> > <a href="https://www.birdlime.net/research">RESEARCH PROJECTS</a> > <a href="https://www.birdlime.net/research/the_witness">THE WITNESS</a> > <a href="https://www.birdlime.net/research/the_witness/media">AUDIO LOGS & MEDIA</a><!-- <span class="dropdown">><span class="dropdown-content"><pre><a href="#introduction" class="text">Introduction</a><br /><a href="#audio_log_transcriptions" class="text">Audio Log Transcriptions</a><br /><a href="#cave_dialogues" class="text">Cave Dialogues</a><br /><a href="#credit_logs" class="text">Credit Logs</a><br /><a href="#video_transcriptions" class="text">Video Transcriptions</a>--></pre></span></span></pre>
+	<div class="main">
+		<pre><a href="https://www.birdlime.net">BIRDLIME</a> > <a href="https://www.birdlime.net/research">RESEARCH PROJECTS</a> > <a href="https://www.birdlime.net/research/the_witness">THE WITNESS</a> > <a href="https://www.birdlime.net/research/the_witness/media">AUDIO LOGS & MEDIA</a></pre>
 	</div>
 </div>
 
