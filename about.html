@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
+
 <head>
 <title>JOURNAL</title>
-</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -13,16 +16,16 @@ body {
 
 h1 {
 	color: white;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	font-size: 24px;
 	font-style: bold;
-	margin-top: 60px;
+	margin-top: 80px;
 	text-align: center;
 }
 
 h2 {
 	color: white;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	font-style: regular;
 	font-size: 24px;
 	text-align: center;
@@ -30,12 +33,17 @@ h2 {
 
 p {
 	color: white; 
-	font-family: "Courier New", monospace; 
+	font-family: "Courier Prime", serif; 
+}
+
+pre {
+	color: white;
+	font-family: "Courier Prime", serif;
 }
 
 a {
 	text-decoration: none;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	margin: 0em;
 }
 
@@ -44,42 +52,56 @@ a:visited {color:gray;}
 a:hover {color:white;}
 a:active {color:white;}
 
-.text {
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #000000;
+	border-bottom-style: solid;
+	border-color: white;
 	display: inline-block;
-	text-decoration: none;
-	"Courier New", monospace;
-	margin: 0em;
 }
 
-.button {
-	text-align: center;
-	display: inline-block;
-}
-
-div {
+.main {
+	width: 85%;
 	margin: 10px auto;
-	width: 65%;
 }
 
 .center {
 	text-align: center;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin: -75px 0 0;
+}
+
 </style>
+</head>
 	
 <body>
+<div class="header">
+	<div class="main">
+		<pre><a href="https://www.birdlime.net">BIRDLIME</a> > <a href="https://www.birdlime.net/about">ABOUT BIRDLIME</a></pre>
+	</div>
+</div>
+
 <h1>WHAT IS BIRDLIME?</h1>
-<div>
+<div class="main">
 <p>Birdlime is a substance used to capture small birds. Its traditional components include plant material (mistletoe berries, holly bark, and others), oil, and human saliva. The material is often boiled or fermented to create a tarry glue which is then spread on the branches of trees.</p>
 
-<p>Birdlime is also the name of a website launched in 2024 that includes various personal projects, writings, and resources created over the years.</p>
+<p>BIRDLIME is the name of a website launched in 2024 that includes various personal projects, writings, and resources created over the years. Currently, most of the site is under construction.</p>
 
-<p>Please note that I am not a web developer and have purposefully kept the site minimalistic. The site is designed for viewing on desktop browsers and is best viewed on a 1920x1080 screen. All aspects of design, including ASCII art, are created by the owner. ASCII fonts are generated using Patrick Gillespie’s online ASCII text tool. The original ASCII font is a design named “Bloody” included with the FIGlet program created by Glen Chappell and Ian Chai.</p>
+<p>I am not a web developer and intend to keep the site minimalistic. The site is designed for viewing on desktop browsers and is best viewed on a 1920x1080 screen; however, I will be experimenting with more universal design. All aspects of design, including ASCII art, are created by the owner. ASCII fonts are generated using Patrick Gillespie’s online ASCII text tool. The original ASCII font is a design named “Bloody” included with the FIGlet program created by Glen Chappell and Ian Chai.
+
+The site uses the font Courier Prime, designed by Alan Dague-Greene and available at Google Fonts under the Open Font License.</p>
 
 <p>I do not collect any user information and wouldn’t know what to do with it if I did.</p>
 
-<p>Thank you for visiting. Please visit the JOURNAL section to see the latest updates to the site. I hope something here piques your interest.</p></div>
-<p class="center"><a href="https://birdlime.net">RETURN HOME</a></p>
+<p>Thank you for visiting. Please visit the <a href="https://www.birdlime.net/journal">JOURNAL</a> section to see the latest updates to the site.</p></div>
 
 </body>
 </html>
