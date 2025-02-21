@@ -3,7 +3,9 @@
 <body>
 <head>
 <title>JOURNAL</title>
-</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -13,16 +15,16 @@ body {
 
 h1 {
 	color: white;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	font-size: 24px;
 	font-style: bold;
-	margin-top: 60px;
+	margin-top: 80px;
 	text-align: center;
 }
 
 h2 {
 	color: white;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	font-style: regular;
 	font-size: 24px;
 	text-align: center;
@@ -30,12 +32,17 @@ h2 {
 
 p {
 	color: white; 
-	font-family: "Courier New", monospace; 
+	font-family: "Courier Prime", serif; 
+}
+
+pre {
+	color: white;
+	font-family: "Courier Prime", serif;
 }
 
 a {
 	text-decoration: none;
-	font-family: "Courier New", monospace;
+	font-family: "Courier Prime", serif;
 	margin: 0em;
 }
 
@@ -44,31 +51,46 @@ a:visited {color:gray;}
 a:hover {color:white;}
 a:active {color:white;}
 
-.text {
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #000000;
+	border-bottom-style: solid;
+	border-color: white;
 	display: inline-block;
-	text-decoration: none;
-	"Courier New", monospace;
-	margin: 0em;
 }
 
-.button {
-	text-align: center;
-	display: inline-block;
-}
-
-div {
+.main {
+	width: 85%;
 	margin: 10px auto;
-	width: 65%;
 }
 
 .center {
 	text-align: center;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin: -75px 0 0;
+}
+
 </style>
+</head>
 
 <body>
-<div><h1>JOURNAL</h1>
+<div class="header">
+	<div class="main">
+		<pre><a href="https://www.birdlime.net">BIRDLIME</a> > <a href="https://www.birdlime.net/journal">SITE JOURNAL</a></pre>
+	</div>
+</div>
+
+<h1>JOURNAL</h1>
+<div class="main">
+<p>02/21/2025 - Making style update site-wide. Updated homepage.</p>
 <p>02/19/2025 - Experimenting with style update. Added navigational header to several pages and switched font from Courier New to Courier Prime for more universal styling.</p>
 <p>02/14/2025 - Added RESOURCES page and unfinished OAK IDENTIFICATION page. Removed links to yet-to-be-created pages.</p>
 <p>02/04/2025 - Added AUDIO LOGS & MEDIA page under THE WITNESS.</p>
@@ -76,8 +98,6 @@ div {
 <p>01/07/2025 - Added some new pages, basic outline of information page on THE WITNESS. Fixing and playing with page display.</p>
 <p>08/16/2024 - Fixed linking issue and successfully added first image to site.</p>
 <p>07/13/2024 - Created the ASCII tree and redesigned website from its original test setup. Added an ABOUT page, JOURNAL page, and a 404 default page. Considering best practice to add new entries to journal as I plan to move to longer entries.</p></div>
-
-<p class="center"><a href="https://birdlime.net" class="button">RETURN HOME</a></p>
 
 </body>
 </html>
