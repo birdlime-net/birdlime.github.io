@@ -1,6 +1,6 @@
 var delay=300
 var fcontent=new Array()
-begintag='<font face="Lucida Console" color="white" "size=3>'
+begintag='<font face="Courier New" color="white" "size=3>'
  
 fcontent[0]="█████<br>█   █<br>█ █ █<br>█   █<br>█████<br>" 
 fcontent[1]="█████<br>█ █ █<br>█   █<br>█   █<br>█████<br>" 
@@ -30,3 +30,4 @@ setTimeout("changecontent()",delay)
 if (ie4||DOM2)
 document.write('<div id="fscroller"></div>')
 window.onload=changecontent
+
