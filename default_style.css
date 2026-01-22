@@ -71,6 +71,18 @@ a:active {color:white;}
 	text-align: center;
 }
 
+.left {
+	left: 7.5%;
+    right: 52%;
+    margin: 10px auto;
+}
+
+.right {
+	right: 7.5%;
+    left: 52%;
+    margin: 10px auto;
+}
+
 :target::before {
   content: "";
   display: block;
