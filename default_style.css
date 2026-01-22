@@ -24,7 +24,6 @@ p {
 
 pre {
 	color: white;
-	text-align: center;
 	font-family: "Courier Prime", serif; 
 	margin: 0em;
 }
@@ -77,8 +76,4 @@ a:active {color:white;}
   display: block;
   height: 75px;
   margin: -75px 0 0;
-}
-
-.center {
-	text-align: center;
 }
